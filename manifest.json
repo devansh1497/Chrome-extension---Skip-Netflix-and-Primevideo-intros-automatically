@@ -5,7 +5,8 @@
     "content_scripts":[ 
         {
             "matches" : [
-                "https://www.netflix.com/*"
+                "https://www.netflix.com/*",
+                "https://www.primevideo.com/*"
             ],
             "js" : ["jquery-3.5.1.min.js","content.js"]
         }
